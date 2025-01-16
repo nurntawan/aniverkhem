@@ -61,7 +61,7 @@ keys.forEach(key => {
 // Event Listener สำหรับปุ่มยืนยัน
 submitBtn.addEventListener('click', () => {
     if (currentPin === CORRECT_PIN) {
-        window.location.href = "/home.html";
+        window.location.href = "home.html";
     } else {
         showError();
         currentPin = "";
